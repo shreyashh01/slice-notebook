@@ -1,0 +1,104 @@
+.area {
+    display: flex;
+    align-items: center;
+    animation: swing 1s infinite ease-in-out alternate;
+    /* margin-left: auto; /* Moves the light fixture to the right */
+    /* margin-right: 20px; */ /* Adjust the right margin for proper spacing */ 
+  }
+  
+  .wire {
+    position: fixed;
+    right: 46px;
+    width: 4px;
+    height: 200px;
+    background-color: black;
+  }
+  
+  .fixture {
+    position: relative;
+    background-color: grey;
+    width: 16px;
+    height: 20px; /* Adjusted height */
+   /*  margin-left: 4px; */ /* Adjusted margin for spacing */
+    top: 99px;
+    right: -11px;
+  }
+  
+  .strip {
+    position: relative;
+    right: 1px;
+    width: 18px;
+    height: 2px;
+    top: 4px;
+    background-color: darkgrey;
+  }
+.strip:nth-of-type(2) {
+    top: 7px;
+}
+
+.strip:nth-of-type(3) {
+    top: 10px;
+}
+  
+  .bulb {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 125px;
+    right: 27px;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: rgba(226, 211, 161, 0.85);
+    box-shadow: 0 0 300px 77px rgba(235, 209, 164, 1);
+    margin-left: 10px; 
+  }
+  
+  .zig {
+    position: relative;
+    background-color: transparent;
+    width: 10px;
+    height: 7px;
+    right: -15px;
+    border-radius: 5px / 2.5px;
+    border: black solid 1px;
+  }
+.zig:nth-of-type(2) {
+    top: -3px;
+}
+
+.zig:nth-of-type(3) {
+    top: -6px;
+}
+ 
+
+  /* Keyframes for the light swinging animation */
+  @keyframes swing {
+    from {
+        -moz-transform: rotate(3deg);
+        -webkit-transform: rotate(3deg);
+        transform: rotate(3deg);
+    }
+    to {
+      transform: rotate(-3deg);
+    }
+  }
+  
+  .btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #cec7bf;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    border: 2px solid #3d737f;
+    background: #3d737f;
+    color: black;
+    /* font-size: 12px; */
+    transition: 1s;
+    
+}

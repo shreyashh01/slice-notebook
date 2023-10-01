@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background-color: #07161b;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+i{
+  cursor: pointer;
+}
+
+.modal.fade {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal.fade.show {
+  opacity: 1;
+}
+
+.form-control{
+  background-color: #cec7bf;
+  border-radius: 12px;
+  padding: 11px 10px;
+
+}
+
+.card{
+  background-color: #cec7bf;
+}
+
+.btn1{
+  display: inline-block;
+  text-decoration: none;
+  color: #07161b;
+  border: 2px solid #07161b;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  padding: 9px;
+  width: 95px;
+}
+
+.btn1:hover{
+  border: 2px solid #07161b;
+  background: #07161b;
+  color: #cec7bf;
+  /* font-size: 14px; */
+  transition: 1s;
+  
+}
+.row{
+  margin-top: -44px! important;
+}
+
+.btn2{
+  display: inline-block;
+  text-decoration: none;
+  color: #3d737f;
+  border: 2px solid #3d737f;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  padding: 9px;
+  width: 95px;
+
+}
+
+
+.btn2:hover{
+  border: 2px solid #cec7bf;
+  background: #07161b;
+  color: #cec7bf;
+  /* font-size: 14px; */
+  transition: 1s;
+  
+}
+
+.btn3{
+  display: inline-block;
+  text-decoration: none;
+  color: #3d737f;
+  border: 2px solid #3d737f;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  padding: 9px;
+  width: 98px;
+}
+
+
+.btn3:hover{
+  border: 2px solid #cec7bf;
+  background: #07161b;
+  color: #cec7bf;
+  /* font-size: 14px; */
+  transition: 1s;
+  
+}
+
+.btn4{
+  display: inline-block;
+  text-decoration: none;
+  color: #3d737f;
+  border: 2px solid #3d737f;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  padding: 9px;
+  width: 95px;
+}
+
+
+.btn4:hover{
+  border: 2px solid #cec7bf;
+  background: #07161b;
+  color: #cec7bf;
+  /* font-size: 14px; */
+  transition: 1s;
+  
+}
